@@ -45,14 +45,6 @@ Then, when the instance is resolved, it evaluates the proposal as follows:
         [ ! -f .env ] && cp .env.template .env
         ```
 
-    - **Install pre-commit**
-
-        Install the pre-commit hooks to ensure that your commits meet the project's standard for code quality and formatting. This will set up hooks that run checks such as linting and formatting before you commit your changes, helping to catch errors early and maintain consistent code style throughout the project.
-
-        ```shell
-        pre-commit install
-        ```
-
 ## Configuration
 
 - **Market Router**:
