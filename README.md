@@ -5,6 +5,12 @@
 ## Overview
 The Market Neutral Requester is a service designed to facilitate neutral portfolio creation through [Market Router API](https://marketrouter.ai/). It leverages the [exa API](https://exa.ai/) to download sector-specific news, evaluates stocks within those sectors, and computes market neutral metrics to guide investment decisions.
 
+The Neutral Portfolio Requester creates the following instance:
+
+<p>
+  <img src="https://github.com/user-attachments/assets/460d13c7-533a-47dd-bda5-535cedb22b9f" width="300">
+</p>
+
 Then, when the instance is resolved, it evaluates the proposal as follows:
 
 - Download news for each S&P sector using [exa API](https://exa.ai/)
@@ -21,6 +27,9 @@ Then, when the instance is resolved, it evaluates the proposal as follows:
   - Utilities
 - Evaluate each stock of the given sector using the provided system
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f09e3b94-82f9-4e41-8562-5a56840220ca" width="500">
+</p>
 
 ## Installation
 
