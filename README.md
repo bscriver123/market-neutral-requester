@@ -67,7 +67,7 @@ Then, when the instance is resolved, it evaluates the proposal as follows:
   - **Max Credit per Instance**: Maximum credit willing to be paid for resolving the instance.
   - **Instance Timeout**: Set the time limit in seconds for the instance to remain active before timing out.
   - **Gen Reward Timeout**: The time (in seconds) within which the requester must send the gen reward.
-  - **Gen Seward**: The reward signal observed and reported by the requester to the marketplace.
+  - **Gen Reward**: The reward signal observed and reported by the requester to the marketplace.
   - **Percentage Reward**: The percentage of the Gen Reward that the requester will pay to the provider once the interaction is completed.
 
 These configuration variables are stored in the config file, ensuring the Neutral Portfolio Provider can effectively interact with the Market Router by managing its proposals and financial transactions.
