@@ -60,7 +60,7 @@ Then, when the instance is resolved, it evaluates the proposal as follows:
   - **Deposit Amount**: Specify the initial deposit amount for transactions in the market router if needed.
   
 - **Instance**:
-  - **Model**: Specify the model used for executing the strategy, such as "gpt-3.5-turbo".
+  - **Model**: Specify the model used for executing the strategy (eg. gpt-3.5-turbo).
   - **Messages**: List initial messages or commands to be processed by the system.
   - **Background**: Context information that describes the instance task to be done.
   - **Max Credit per Instance**: Maximum credit willing to be paid for resolving the instance.
