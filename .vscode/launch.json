@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Chat Completion",
+            "type": "python",
+            "request": "launch",
+            "module": "market_neutral.scripts.sector_market_pipeline",
+            "justMyCode": true,
+            "args": ["--market=sp500", "--sector=Energy"]
+        },
+        {
+            "name": "Register User",
+            "type": "python",
+            "request": "launch",
+            "module": "market_router.scripts.register",
+            "justMyCode": true,
+        },
+        {
+            "name": "Create API Key",
+            "type": "python",
+            "request": "launch",
+            "module": "market_router.scripts.api_key",
+            "justMyCode": true,
+        },
+        {
+            "name": "Deposit",
+            "type": "python",
+            "request": "launch",
+            "module": "market_router.scripts.deposit",
+            "justMyCode": true,
+        },
+        {
+            "name": "Create Instance",
+            "type": "python",
+            "request": "launch",
+            "module": "market_router.scripts.instance",
+            "justMyCode": true,
+        },
+        {
+            "name": "Submit Reward",
+            "type": "python",
+            "request": "launch",
+            "module": "market_router.scripts.generate_reward",
+            "justMyCode": true,
+        }
+    ]
+}
