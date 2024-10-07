@@ -101,7 +101,7 @@ These configuration variables are stored in the config file, ensuring the Neutra
    
 6. **Chat Completions**
    ```shell
-   python -m market_neutral.scripts.sector_market_pipeline --market="sp500" --sector="Energy"
+   python -m src.scripts.sector_market_pipeline --market="sp500" --sector="Energy"
    ```
    Interacts with the proposal endpoint before submitting the reward.
    

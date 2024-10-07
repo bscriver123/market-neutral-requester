@@ -5,7 +5,7 @@
             "name": "Chat Completion",
             "type": "python",
             "request": "launch",
-            "module": "market_neutral.scripts.sector_market_pipeline",
+            "module": "src.scripts.sector_market_pipeline",
             "justMyCode": true,
             "args": ["--market=sp500", "--sector=Energy"]
         },

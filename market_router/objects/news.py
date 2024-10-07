@@ -11,9 +11,9 @@ from market_router import (
     OPENAI_API_KEY,
 )
 from market_router.expections import CreateCompletionError, SearchError, SummarizeError
-from market_neutral import exa_sector_query_tpl, summarize_sector_system_tpl
-from market_neutral.utils.ai_utils import create_completion
-from market_neutral.utils.time_utils import datetime_to_iso8601
+from src import exa_sector_query_tpl, summarize_sector_system_tpl
+from src.utils.ai_utils import create_completion
+from src.utils.time_utils import datetime_to_iso8601
 
 openai.api_key = OPENAI_API_KEY
 exa = Exa(api_key=EXA_API_KEY)

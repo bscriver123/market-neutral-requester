@@ -4,7 +4,7 @@ import os
 from loguru import logger
 
 from market_router import utils
-from market_neutral import baseline_system_prompt_tpl
+from src import baseline_system_prompt_tpl
 
 
 def get_model_predictions(news: str, tickers: list, instance_id: str = None) -> list:

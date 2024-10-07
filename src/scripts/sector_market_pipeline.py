@@ -4,7 +4,7 @@ from datetime import datetime
 
 from loguru import logger
 
-from market_neutral import pipes
+from src import pipes
 
 _TOP_N = 10
 

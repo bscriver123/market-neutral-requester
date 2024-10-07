@@ -4,7 +4,7 @@ import pandas as pd
 from loguru import logger
 
 from market_router.expections import MarketAssetError
-from market_neutral.schemas.ticker import TickerDTO
+from src.schemas.ticker import TickerDTO
 
 
 def _get_tickers_by_filters(
