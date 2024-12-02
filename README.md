@@ -31,14 +31,16 @@ Then, when the instance is resolved, it evaluates the proposal as follows:
   <img src="https://github.com/user-attachments/assets/f09e3b94-82f9-4e41-8562-5a56840220ca" width="500">
 </p>
 
+## Download
+
+To download the repository, you can use the following command to clone it to your local machine:
+
+```shell
+git clone https://github.com/GroupLang/market-neutral-requester.git
+cd market-neutral-requester
+```
+
 ## Installation
-
-1. **Clone the repository**
-
-   ```shell
-   git clone https://github.com/GroupLang/market-neutral-requester.git
-   cd market-neutral-requester
-   ```
 2. **Install required libraries**
    ```shell
    python3.11 -m venv venv
